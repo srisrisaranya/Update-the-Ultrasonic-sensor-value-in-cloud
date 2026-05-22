@@ -1,4 +1,4 @@
-# Update-the-Ultrasonic-sensor-value-in-Things Mate
+# Update the Ultrasonic sensor value in Things Mate
 
 # Name: SARANYA S
 # ROLL NO: 212223110044

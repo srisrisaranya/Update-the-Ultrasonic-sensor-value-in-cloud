@@ -196,6 +196,17 @@ if((new_time-old_time>=uplink_interval)&&(network_joined_status==1)){
   }
 }
 ```
+# UPLINK FORMAT:
+```
+function Decoder(bytes, port) {
+    var Temperature = (bytes[0] << 8 | bytes[1]) / 100;
+    var Humidity = (bytes[2] << 8 | bytes[3]) / 100;
+    return {
+        Temperature: Temperature,
+        Humidity: Humidity
+    }
+};
+```
 
 # CIRCUIT DIAGRAM:
 
